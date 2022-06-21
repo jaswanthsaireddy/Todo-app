@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,35 @@
 </head>
 <link rel="stylesheet" href="/style.css">
 <body>
-    
+    <div class="app">
+        <h4>Todo App</h4>
+        <div id="addNew">
+            <span>Add New Task</span>
+            <i class ="fas fa-plus"></i> 
+        </div>
+        <h5>Tasks</h5>
+
+        <div id="tasks">
+            <div>
+                <span>Task 1</span>
+                <span>21-06-2022</span>
+                <p>Going to gym to watch netflix</p>
+                <span class="options">
+                    <i class="fas fa-edit"></i>
+                    <i class="fas fa-trash-alt"></i>
+                </span>
+            </div>
+            <div>
+                <span>Task 2</span>
+                <span>22-06-2022</span>
+                <p>Going to class to chill</p>
+                <span class="options">
+                    <i class="fas fa-edit"></i>
+                    <i class="fas fa-trash-alt"></i>
+                </span>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="/index.js"></script>
 </html>
